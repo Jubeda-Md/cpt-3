@@ -31,3 +31,17 @@ sum: 55
 
 
 program::4
+''' write a function thatb carries and return all the arthmetic operator
+to the main code(+,-,*)
+pass the constraints,where all the constraints must be caluculated
+accordingly and return the values to print by calling the same function
+'''
+def ao(x,y):
+    return x+y, x-y, x*y
+x=int(input("x:"))
+y=int(input("y:"))
+tot, diff, prod= ao(x,y)
+print("sum:",tot)
+print("sub:",diff)
+print("mul:",prod)
+output::
